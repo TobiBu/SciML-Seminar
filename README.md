@@ -1,6 +1,6 @@
 # SciML-Seminar
 Repository of requirements and additional material for the notebooks from Christian Kleiber's seminar talk about variational autoencoders (VAE) in January 2024.
-The original repo can be found here: 
+The original repo can be found here: https://github.com/CKleiber/SciML-Seminar
 
 ### interpolate.py
 Helper function for interpolation of two or more datapoints. 
