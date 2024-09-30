@@ -1,14 +1,6 @@
 # SciML-Seminar
-Repository of my seminar talk about variational autoencoders (VAE) in January 2024.
-
-## Autoencoder.ipynb
-This is the first file, where a very basic autoencoder is used to reproduce the two moons dataset. Furthermore, a convolutional autoencoder is applied on the MNIST dataset. The 2D latent space is visualised for each label, showing the irregularities of the autoencoder latent space. When trying to generate data, some problems occur, which are then treated in the next notebook.
-
-## VariationalAutoencoder.ipynb
-Here, the same datasets are used as above. Only the autoencoder is expanded to a VAE. The trade-off of reconstuction and generation can be observed in both datasets. The gaps in the latent space of the autoencoder are not appearing for the VAE, creating higher quality synthetic data. 
-
-## PlayingWithVAE.ipynb
-Notebook I used to play around with the concept of the VAE. I used a comic face dataset to train a quite large VAE to test the interpolation and reconstruction of more complicated data than e.g. MNIST.
+Repository of requirements and additional material for the notebooks from Christian Kleiber's seminar talk about variational autoencoders (VAE) in January 2024.
+The original repo can be found here: 
 
 ### interpolate.py
 Helper function for interpolation of two or more datapoints. 
