@@ -56,6 +56,6 @@ def interpolate(model, points: np.array, step_size, name='interpolation.gif', ca
         
 
     anim = animation.ArtistAnimation(fig, images, interval=200, blit=True, repeat_delay=1000)
-    anim.save('gifs/' + name, writer='imagemagick')
+    anim.save('SciML-Seminar/gifs/' + name, writer='imagemagick')
 
     return anim
